@@ -3,6 +3,7 @@ package com.pautorrents.designpatterns.manager;
 import com.pautorrents.designpatterns.patterns.abstractFactory.AbstractFactoryPatternManager;
 import com.pautorrents.designpatterns.patterns.decorator.DecoratorPatternManager;
 import com.pautorrents.designpatterns.patterns.observer.ObserverPatternManager;
+import com.pautorrents.designpatterns.patterns.singleton.SingletonPatternManager;
 import com.pautorrents.designpatterns.patterns.strategy.StrategyPatternManager;
 import com.pautorrents.designpatterns.helpers.InputReader;
 import com.pautorrents.designpatterns.helpers.Pair;
@@ -49,6 +50,7 @@ public class ProgramManager {
         result.add(new Pair<>("decorator", new DecoratorPatternManager()));
         result.add(new Pair<>("factory-method", new FactoryMethodPatternManager()));
         result.add(new Pair<>("abstract-factory", new AbstractFactoryPatternManager()));
+        result.add(new Pair<>("singleton", new SingletonPatternManager()));
 
         return result;
     }
