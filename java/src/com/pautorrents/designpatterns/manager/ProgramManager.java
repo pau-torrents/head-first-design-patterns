@@ -2,6 +2,7 @@ package com.pautorrents.designpatterns.manager;
 
 import com.pautorrents.designpatterns.patterns.abstractFactory.AbstractFactoryPatternManager;
 import com.pautorrents.designpatterns.patterns.adapter.AdapterPatternManager;
+import com.pautorrents.designpatterns.patterns.bridge.BridgePatternManager;
 import com.pautorrents.designpatterns.patterns.command.CommandPatternManager;
 import com.pautorrents.designpatterns.patterns.decorator.DecoratorPatternManager;
 import com.pautorrents.designpatterns.patterns.facade.FacadePatternManager;
@@ -59,6 +60,7 @@ public class ProgramManager {
         result.add(new Pair<>("adapter", new AdapterPatternManager()));
         result.add(new Pair<>("facade", new FacadePatternManager()));
         result.add(new Pair<>("proxy", new ProxyPatternManager()));
+        result.add(new Pair<>("bridge", new BridgePatternManager()));
 
         return result;
     }
