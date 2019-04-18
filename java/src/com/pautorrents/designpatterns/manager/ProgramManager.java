@@ -6,6 +6,7 @@ import com.pautorrents.designpatterns.patterns.command.CommandPatternManager;
 import com.pautorrents.designpatterns.patterns.decorator.DecoratorPatternManager;
 import com.pautorrents.designpatterns.patterns.facade.FacadePatternManager;
 import com.pautorrents.designpatterns.patterns.observer.ObserverPatternManager;
+import com.pautorrents.designpatterns.patterns.proxy.ProxyPatternManager;
 import com.pautorrents.designpatterns.patterns.singleton.SingletonPatternManager;
 import com.pautorrents.designpatterns.patterns.strategy.StrategyPatternManager;
 import com.pautorrents.designpatterns.helpers.InputReader;
@@ -57,6 +58,7 @@ public class ProgramManager {
         result.add(new Pair<>("command", new CommandPatternManager()));
         result.add(new Pair<>("adapter", new AdapterPatternManager()));
         result.add(new Pair<>("facade", new FacadePatternManager()));
+        result.add(new Pair<>("proxy", new ProxyPatternManager()));
 
         return result;
     }
