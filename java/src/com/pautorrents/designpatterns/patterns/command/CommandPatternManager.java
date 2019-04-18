@@ -1,5 +1,6 @@
 package com.pautorrents.designpatterns.patterns.command;
 
+import com.pautorrents.designpatterns.helpers.ICallback;
 import com.pautorrents.designpatterns.patterns.IPatternManager;
 import com.pautorrents.designpatterns.patterns.command.commands.LightsOffCommand;
 import com.pautorrents.designpatterns.patterns.command.commands.LightsOnCommand;
@@ -59,9 +60,5 @@ public class CommandPatternManager implements IPatternManager {
         }
         action.invoke();
         robot.render();
-    }
-
-    private interface ICallback {
-        void invoke();
     }
 }

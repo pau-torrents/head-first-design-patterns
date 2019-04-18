@@ -3,6 +3,7 @@ package com.pautorrents.designpatterns.manager;
 import com.pautorrents.designpatterns.patterns.abstractFactory.AbstractFactoryPatternManager;
 import com.pautorrents.designpatterns.patterns.command.CommandPatternManager;
 import com.pautorrents.designpatterns.patterns.decorator.DecoratorPatternManager;
+import com.pautorrents.designpatterns.patterns.facade.FacadePatternManager;
 import com.pautorrents.designpatterns.patterns.observer.ObserverPatternManager;
 import com.pautorrents.designpatterns.patterns.singleton.SingletonPatternManager;
 import com.pautorrents.designpatterns.patterns.strategy.StrategyPatternManager;
@@ -53,6 +54,7 @@ public class ProgramManager {
         result.add(new Pair<>("abstract-factory", new AbstractFactoryPatternManager()));
         result.add(new Pair<>("singleton", new SingletonPatternManager()));
         result.add(new Pair<>("command", new CommandPatternManager()));
+        result.add(new Pair<>("facade", new FacadePatternManager()));
 
         return result;
     }
