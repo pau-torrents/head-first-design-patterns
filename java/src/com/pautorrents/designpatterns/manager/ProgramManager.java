@@ -14,6 +14,7 @@ import com.pautorrents.designpatterns.helpers.InputReader;
 import com.pautorrents.designpatterns.helpers.Pair;
 import com.pautorrents.designpatterns.patterns.IPatternManager;
 import com.pautorrents.designpatterns.patterns.factoryMethod.FactoryMethodPatternManager;
+import com.pautorrents.designpatterns.patterns.template.TemplatePatternManager;
 
 import java.util.ArrayList;
 
@@ -61,6 +62,7 @@ public class ProgramManager {
         result.add(new Pair<>("facade", new FacadePatternManager()));
         result.add(new Pair<>("proxy", new ProxyPatternManager()));
         result.add(new Pair<>("bridge", new BridgePatternManager()));
+        result.add(new Pair<>("template", new TemplatePatternManager()));
 
         return result;
     }
