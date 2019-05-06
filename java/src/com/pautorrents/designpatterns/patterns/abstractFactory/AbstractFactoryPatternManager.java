@@ -2,10 +2,10 @@ package com.pautorrents.designpatterns.patterns.abstractFactory;
 
 import com.pautorrents.designpatterns.helpers.OutputWriter;
 import com.pautorrents.designpatterns.patterns.IPatternManager;
-import com.pautorrents.designpatterns.patterns.abstractFactory.entitites.buttons.Button;
 import com.pautorrents.designpatterns.patterns.abstractFactory.entitites.text.Text;
-import com.pautorrents.designpatterns.patterns.abstractFactory.factory.AndroidComponentFactory;
 import com.pautorrents.designpatterns.patterns.abstractFactory.factory.IComponentFactory;
+import com.pautorrents.designpatterns.patterns.abstractFactory.entitites.buttons.Button;
+import com.pautorrents.designpatterns.patterns.abstractFactory.factory.AndroidComponentFactory;
 import com.pautorrents.designpatterns.patterns.abstractFactory.factory.IosComponentFactory;
 
 public class AbstractFactoryPatternManager implements IPatternManager {

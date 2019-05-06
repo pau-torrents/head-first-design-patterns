@@ -1,13 +1,13 @@
 package com.pautorrents.designpatterns.patterns.decorator;
 
+import com.pautorrents.designpatterns.patterns.decorator.components.ConsoleStreamReader;
 import com.pautorrents.designpatterns.patterns.decorator.components.FileStreamReader;
+import com.pautorrents.designpatterns.patterns.decorator.decorators.Base64StreamReader;
+import com.pautorrents.designpatterns.patterns.decorator.decorators.ReverseStreamReader;
 import com.pautorrents.designpatterns.helpers.InputReader;
 import com.pautorrents.designpatterns.helpers.OutputWriter;
 import com.pautorrents.designpatterns.helpers.Pair;
 import com.pautorrents.designpatterns.patterns.IPatternManager;
-import com.pautorrents.designpatterns.patterns.decorator.components.ConsoleStreamReader;
-import com.pautorrents.designpatterns.patterns.decorator.decorators.Base64StreamReader;
-import com.pautorrents.designpatterns.patterns.decorator.decorators.ReverseStreamReader;
 
 import java.util.ArrayList;
 

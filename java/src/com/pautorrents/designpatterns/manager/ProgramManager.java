@@ -1,19 +1,19 @@
 package com.pautorrents.designpatterns.manager;
 
+import com.pautorrents.designpatterns.helpers.InputReader;
+import com.pautorrents.designpatterns.helpers.Pair;
+import com.pautorrents.designpatterns.patterns.IPatternManager;
+import com.pautorrents.designpatterns.patterns.decorator.DecoratorPatternManager;
+import com.pautorrents.designpatterns.patterns.factoryMethod.FactoryMethodPatternManager;
+import com.pautorrents.designpatterns.patterns.observer.ObserverPatternManager;
+import com.pautorrents.designpatterns.patterns.strategy.StrategyPatternManager;
 import com.pautorrents.designpatterns.patterns.abstractFactory.AbstractFactoryPatternManager;
 import com.pautorrents.designpatterns.patterns.adapter.AdapterPatternManager;
 import com.pautorrents.designpatterns.patterns.bridge.BridgePatternManager;
 import com.pautorrents.designpatterns.patterns.command.CommandPatternManager;
-import com.pautorrents.designpatterns.patterns.decorator.DecoratorPatternManager;
 import com.pautorrents.designpatterns.patterns.facade.FacadePatternManager;
-import com.pautorrents.designpatterns.patterns.observer.ObserverPatternManager;
 import com.pautorrents.designpatterns.patterns.proxy.ProxyPatternManager;
 import com.pautorrents.designpatterns.patterns.singleton.SingletonPatternManager;
-import com.pautorrents.designpatterns.patterns.strategy.StrategyPatternManager;
-import com.pautorrents.designpatterns.helpers.InputReader;
-import com.pautorrents.designpatterns.helpers.Pair;
-import com.pautorrents.designpatterns.patterns.IPatternManager;
-import com.pautorrents.designpatterns.patterns.factoryMethod.FactoryMethodPatternManager;
 import com.pautorrents.designpatterns.patterns.template.TemplatePatternManager;
 
 import java.util.ArrayList;

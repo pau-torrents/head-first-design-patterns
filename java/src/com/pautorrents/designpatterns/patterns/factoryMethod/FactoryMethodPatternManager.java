@@ -1,11 +1,11 @@
 package com.pautorrents.designpatterns.patterns.factoryMethod;
 
-import com.pautorrents.designpatterns.helpers.Pair;
-import com.pautorrents.designpatterns.patterns.IPatternManager;
 import com.pautorrents.designpatterns.patterns.factoryMethod.entities.Person;
 import com.pautorrents.designpatterns.patterns.factoryMethod.entities.PersonType;
 import com.pautorrents.designpatterns.patterns.factoryMethod.factory.IPersonFactory;
 import com.pautorrents.designpatterns.patterns.factoryMethod.factory.PersonFactory;
+import com.pautorrents.designpatterns.helpers.Pair;
+import com.pautorrents.designpatterns.patterns.IPatternManager;
 
 import java.util.Arrays;
 import java.util.List;

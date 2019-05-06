@@ -1,9 +1,9 @@
 package com.pautorrents.designpatterns.patterns.factoryMethod.factory;
 
+import com.pautorrents.designpatterns.patterns.factoryMethod.entities.VillagePerson;
 import com.pautorrents.designpatterns.patterns.factoryMethod.entities.CityPerson;
 import com.pautorrents.designpatterns.patterns.factoryMethod.entities.Person;
 import com.pautorrents.designpatterns.patterns.factoryMethod.entities.PersonType;
-import com.pautorrents.designpatterns.patterns.factoryMethod.entities.VillagePerson;
 
 public class PersonFactory implements IPersonFactory {
     @Override

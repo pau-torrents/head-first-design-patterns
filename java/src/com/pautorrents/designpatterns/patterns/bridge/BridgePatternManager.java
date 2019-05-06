@@ -2,6 +2,7 @@ package com.pautorrents.designpatterns.patterns.bridge;
 
 import com.pautorrents.designpatterns.helpers.OutputWriter;
 import com.pautorrents.designpatterns.patterns.IPatternManager;
+import com.pautorrents.designpatterns.patterns.bridge.pattern.views.View;
 import com.pautorrents.designpatterns.patterns.bridge.entities.Author;
 import com.pautorrents.designpatterns.patterns.bridge.entities.Book;
 import com.pautorrents.designpatterns.patterns.bridge.entities.IEntity;
@@ -11,10 +12,8 @@ import com.pautorrents.designpatterns.patterns.bridge.pattern.resources.IMediaRe
 import com.pautorrents.designpatterns.patterns.bridge.pattern.views.LongDetailView;
 import com.pautorrents.designpatterns.patterns.bridge.pattern.views.RowView;
 import com.pautorrents.designpatterns.patterns.bridge.pattern.views.ShortDetailView;
-import com.pautorrents.designpatterns.patterns.bridge.pattern.views.View;
 
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;

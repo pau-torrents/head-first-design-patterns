@@ -1,8 +1,8 @@
 package com.pautorrents.designpatterns.patterns.facade;
 
-import com.pautorrents.designpatterns.helpers.ICallback;
 import com.pautorrents.designpatterns.helpers.OutputWriter;
 import com.pautorrents.designpatterns.patterns.IPatternManager;
+import com.pautorrents.designpatterns.helpers.ICallback;
 
 public class FacadePatternManager implements IPatternManager {
 

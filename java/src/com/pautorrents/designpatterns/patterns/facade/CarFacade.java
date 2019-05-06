@@ -1,10 +1,9 @@
 package com.pautorrents.designpatterns.patterns.facade;
 
 import com.pautorrents.designpatterns.helpers.OutputWriter;
+import com.pautorrents.designpatterns.patterns.facade.parts.Engine;
 import com.pautorrents.designpatterns.patterns.facade.enums.WheelDirection;
 import com.pautorrents.designpatterns.patterns.facade.parts.DirectionWheels;
-import com.pautorrents.designpatterns.patterns.facade.parts.Engine;
-import com.pautorrents.designpatterns.patterns.facade.parts.Wheel;
 
 public class CarFacade {
 

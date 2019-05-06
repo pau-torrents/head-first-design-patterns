@@ -1,13 +1,13 @@
 package com.pautorrents.designpatterns.patterns.command;
 
-import com.pautorrents.designpatterns.helpers.ICallback;
 import com.pautorrents.designpatterns.patterns.IPatternManager;
-import com.pautorrents.designpatterns.patterns.command.commands.LightsOffCommand;
 import com.pautorrents.designpatterns.patterns.command.commands.LightsOnCommand;
+import com.pautorrents.designpatterns.patterns.command.entities.Robot;
+import com.pautorrents.designpatterns.helpers.ICallback;
+import com.pautorrents.designpatterns.patterns.command.commands.LightsOffCommand;
 import com.pautorrents.designpatterns.patterns.command.commands.MoveBackwardCommand;
 import com.pautorrents.designpatterns.patterns.command.commands.MoveForwardCommand;
 import com.pautorrents.designpatterns.patterns.command.entities.Controller;
-import com.pautorrents.designpatterns.patterns.command.entities.Robot;
 
 public class CommandPatternManager implements IPatternManager {
 
