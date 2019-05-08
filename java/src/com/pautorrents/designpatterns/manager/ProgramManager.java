@@ -3,6 +3,7 @@ package com.pautorrents.designpatterns.manager;
 import com.pautorrents.designpatterns.helpers.InputReader;
 import com.pautorrents.designpatterns.helpers.Pair;
 import com.pautorrents.designpatterns.patterns.IPatternManager;
+import com.pautorrents.designpatterns.patterns.composite.CompositePatternManager;
 import com.pautorrents.designpatterns.patterns.decorator.DecoratorPatternManager;
 import com.pautorrents.designpatterns.patterns.factoryMethod.FactoryMethodPatternManager;
 import com.pautorrents.designpatterns.patterns.observer.ObserverPatternManager;
@@ -63,6 +64,7 @@ public class ProgramManager {
         result.add(new Pair<>("proxy", new ProxyPatternManager()));
         result.add(new Pair<>("bridge", new BridgePatternManager()));
         result.add(new Pair<>("template", new TemplatePatternManager()));
+        result.add(new Pair<>("composite", new CompositePatternManager()));
 
         return result;
     }
